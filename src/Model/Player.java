@@ -3,16 +3,36 @@ package Model;
 public class Player {
 
     private String name;
-    private FieldInterface currentField;
+    private Field currentField;
+    //private FieldInterface currentField;
+
+    public Player (String name, Field currentField){
+
+        this.name = name;
+        this.currentField = currentField;
+    }
 
 
     public int move(DiceCup cup) {
 
-        return 0;
+        return cup.throwDice();
     }
 
+    public void setField (Field newField){
+        currentField = newField;
+    }
 
-    public void setPos(int pos) {
+    public Field getField() {
+        return currentField;
+    }
+
+    public int getFieldNumber () {return currentField.getNumber();}
+
+    public String getName () {return name;}
+
+    public void setPos(int moves) {
+
+
 
     }
 }

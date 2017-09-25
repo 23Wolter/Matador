@@ -26,7 +26,7 @@ public class DiceCup {
 
     @Override
     public String toString() {
-        return "DiceCup{" + "eyes1=" + eyes1 + ", eyes2=" + eyes2 + " equal? " + isEqual();
+        return "DiceRoll: " + eyes1 + ", " + eyes2 + ", total: "+ (eyes1+eyes2) +". Ens: " + isEqual();
     }
 
     /**
