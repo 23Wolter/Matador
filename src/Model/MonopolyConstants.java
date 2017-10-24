@@ -13,11 +13,11 @@ public interface MonopolyConstants
     String[] FIELD_NAMES =
             {
                     "Start", "Rødovrevej", "Prøv lykken", "Hvidovrevej", "Indkomstskat", "Øresund A/S",
-                    "Roskildevej", "?", "Valby Langgade", "Allégade", "Fængsel", "Frederiksberg Allé", "Tuborg",
-                    "Büllowsvej", "Gl. Kongevej", "D.F.D.S A/S", "Bernstorffsvej", "?", "Hellerupvej", "Strandvejen",
-                    "Parkering", "Trianglen", "?", "Østerbrogade", "Grønningen", "Ø.K. A/S", "Bredgade",
-                    "Kgs Nytorv", "Carlsberg", "Østergade", "Gå i Fængsel!", "Amagertorv", "Vimmelskaftet", "?", "Nygade",
-                    "D/S Bornholm 1866", "?", "Frederiksberg Allé", "Statsskat", "Rådhuspladsen"
+                    "Roskildevej", "Prøv lykken", "Valby Langgade", "Allégade", "Fængsel", "Frederiksberg Allé", "Tuborg",
+                    "Büllowsvej", "Gl. Kongevej", "D.F.D.S A/S", "Bernstorffsvej", "Prøv lykken", "Hellerupvej", "Strandvejen",
+                    "Parkering", "Trianglen", "Prøv lykken", "Østerbrogade", "Grønningen", "Ø.K. A/S", "Bredgade",
+                    "Kgs Nytorv", "Carlsberg", "Østergade", "Gå i Fængsel!", "Amagertorv", "Vimmelskaftet", "Prøv lykken", "Nygade",
+                    "D/S Bornholm 1866", "Prøv lykken", "Frederiksberg Allé", "Statsskat", "Rådhuspladsen"
             };
 
 

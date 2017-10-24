@@ -26,12 +26,37 @@ public class GoToJailField implements FieldInterface
     }
 
     @Override
-    public void consequense(Player poorPlayer)
+    public void action(Player actingPlayer)
     {
-        poorPlayer.setPos(MonopolyConstants.JAIL_POS);
+        actingPlayer.setField(GameDriver.fieldArray[MonopolyConstants.JAIL_POS]);
+        actingPlayer.setFreedom(false);
+        System.out.println(actingPlayer.getFreedom());
+
+        System.out.println("You are now in jail!");
+
 
     }
 
+    public static void getFree(Player actingPlayer, DiceCup cup){
+
+        if(!actingPlayer.getFreedom()) {
+
+            for(int i = 0; i < 3; i++) {
+                cup.throwDice();
+                System.out.println("\t" + cup);
+                if(cup.isEqual()){
+
+                    actingPlayer.setFreedom(true);
+                    System.out.println("You are now free");
+                    break;
+                }
+                System.out.println("Too bad, try again");
+            }
+
+
+
+        }
+    }
 
 
 }
